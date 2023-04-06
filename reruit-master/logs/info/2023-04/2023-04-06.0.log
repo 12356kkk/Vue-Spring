@@ -1,0 +1,4 @@
+2023-04-06 12:02:56.161 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 23ms
+2023-04-06 12:02:56.168 [http-nio-5000-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 30ms
+2023-04-06 12:02:56.166 [http-nio-5000-exec-10] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 28ms
+2023-04-06 12:02:56.180 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 42ms

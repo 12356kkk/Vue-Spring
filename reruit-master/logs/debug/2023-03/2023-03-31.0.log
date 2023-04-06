@@ -1,0 +1,676 @@
+2023-03-31 13:47:15.083 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-31 13:47:15.083 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2-console/*]
+2023-03-31 13:47:18.443 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-31 13:47:18.521 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 97 mappings in 'requestMappingHandlerMapping'
+2023-03-31 13:47:18.552 [restartedMain] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2023-03-31 13:47:18.568 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2023-03-31 13:47:18.583 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-31 13:47:18.958 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:18.990 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.021 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.021 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.021 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有可分配的权限(String), 管理员(String)
+2023-03-31 13:47:19.021 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有可分配的权限(String), 管理员(String)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 申请审核(String), 申请(String)
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.036 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业状态(String), 公司(String)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的面试(String), 面试(String)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除用户(String), 管理员(String)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2023-03-31 13:47:19.052 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除一个权限组(String), 管理员(String)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除多个权限(String), 管理员(String)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.068 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除分类(String), 职位分类(String)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看已发布的职位(String), 职位(String)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 管理员更新用户信息(String), 管理员(String)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新一个权限组(String), 管理员(String)
+2023-03-31 13:47:19.083 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 下架职位(String), 职位(String)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消关注(String), 关注公司(String)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 下架职位(String), 职位(String)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配单个权限(String), 管理员(String)
+2023-03-31 13:47:19.099 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增关注(String), 关注公司(String)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 申请审核(String), 申请(String)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业信息(String), 公司(String)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组(String), 管理员(String)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.115 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询简历(String), 简历(String)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除一个权限组(String), 管理员(String)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除用户(String), 管理员(String)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增分类(String), 职位分类(String)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历管理(String), 申请(String)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.130 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位(String), 职位(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看已发布的职位(String), 职位(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 添加收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新简历(String), 简历(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除多个权限(String), 管理员(String)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.146 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的投递箱(String), 申请(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 修改用户密码(String), 管理员(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增分类(String), 职位分类(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询一个权限组及其权限(String), 管理员(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增关注(String), 关注公司(String)
+2023-03-31 13:47:19.161 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位(String), 职位(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新建权限组(String), 管理员(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 发布职位(String), 职位(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组及其权限(String), 管理员(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询简历(String), 简历(String)
+2023-03-31 13:47:19.177 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的投递箱(String), 申请(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位状态(String), 职位(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 企业认证(String), 公司(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 企业认证(String), 公司(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配多个权限(String), 管理员(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 投递简历(String), 申请(String)
+2023-03-31 13:47:19.193 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组(String), 管理员(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配多个权限(String), 管理员(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的关注(String), 关注公司(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位状态(String), 职位(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历排序(String), 申请(String)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.208 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 添加收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业状态(String), 公司(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 撤销申请(String), 申请(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 创建简历(String), 简历(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消关注(String), 关注公司(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.224 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看分类列表(String), 职位分类(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新分类(String), 职位分类(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除分类(String), 职位分类(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历排序(String), 申请(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 发布职位(String), 职位(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配单个权限(String), 管理员(String)
+2023-03-31 13:47:19.240 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的面试(String), 面试(String)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 投递简历(String), 申请(String)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 撤销申请(String), 申请(String)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 创建简历(String), 简历(String)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.255 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历管理(String), 申请(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新建权限组(String), 管理员(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询一个权限组及其权限(String), 管理员(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 管理员更新用户信息(String), 管理员(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新简历(String), 简历(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新分类(String), 职位分类(String)
+2023-03-31 13:47:19.271 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的关注(String), 关注公司(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看分类列表(String), 职位分类(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业信息(String), 公司(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组及其权限(String), 管理员(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 修改用户密码(String), 管理员(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新一个权限组(String), 管理员(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2023-03-31 13:47:19.286 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的收藏(String), 收藏职位(String)
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - ==> Parameters: 
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - <==      Total: 52
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.302 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 查看简历详情(String), 简历(String), true(Boolean), 2021-04-16 08:35:54.021(Timestamp), 2021-04-16 08:35:54.021(Timestamp), 8(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 职位审核(String), 职位(String), true(Boolean), 2021-04-16 09:34:30.746(Timestamp), 2021-04-16 09:34:30.746(Timestamp), 10(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 查看职位详细信息(String), 职位(String), true(Boolean), 2021-04-16 09:34:30.843(Timestamp), 2021-04-16 09:34:30.843(Timestamp), 12(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 企业审核(String), 公司(String), true(Boolean), 2021-04-16 09:40:34.825(Timestamp), 2021-04-16 09:40:34.825(Timestamp), 17(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 用户列表(String), 管理员(String), true(Boolean), 2022-04-10 07:51:53.107(Timestamp), 2022-04-24 07:56:26.615(Timestamp), 55(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 管理员(String), 管理员(String), true(Boolean), 2022-04-10 07:56:39.29(Timestamp), 2022-04-24 07:56:28.185(Timestamp), 56(Integer)
+2023-03-31 13:47:19.318 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2023-03-31 13:47:53.642 [http-nio-5000-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-03-31 13:47:53.658 [http-nio-5000-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-31 13:47:53.673 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 13:47:53.673 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 13:47:53.673 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 13:47:53.673 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 13:47:53.673 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 13:47:53.673 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 13:47:53.673 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 13:47:53.673 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 13:47:53.736 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 13:47:53.736 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 13:47:53.736 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 13:47:53.736 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 13:47:53.736 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 13:47:53.736 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 13:47:53.736 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 13:47:53.736 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 13:47:53.751 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 13:47:53.767 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:47:53.767 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:47:53.767 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:47:53.767 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 13:47:53.767 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 13:47:53.767 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 13:47:53.798 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 13:47:53.798 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 13:47:53.814 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 13:47:53.814 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 13:47:53.830 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 13:47:53.845 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:47:53.845 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 13:47:53.861 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:47:53.861 [http-nio-5000-exec-4] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:47:53.861 [http-nio-5000-exec-1] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:47:53.861 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:49:48.653 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/2", parameters={}
+2023-03-31 13:49:48.654 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#get(Integer)
+2023-03-31 13:49:48.658 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getById - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,ca.id as category_id,ca.name as category_name FROM position p,company c,category ca where p.id = ? and p.company_id = c.id and p.category_id = ca.id and p.delete_time is null
+2023-03-31 13:49:48.658 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getById - ==> Parameters: 2(Integer)
+2023-03-31 13:49:48.658 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getById - <==      Total: 1
+2023-03-31 13:49:48.658 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:49:48.658 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc=阿里巴巴集团经营多项业务，另外也从关联公司的业务和服务中取得经营 (truncated)...]
+2023-03-31 13:49:48.673 [http-nio-5000-exec-9] "GET /recruit/position/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:49:48.673 [http-nio-5000-exec-10] "OPTIONS /recruit/position/hits/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/position/hits/2", parameters={}
+2023-03-31 13:49:48.673 [http-nio-5000-exec-10] "OPTIONS /recruit/position/hits/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#updateHits(Integer)
+2023-03-31 13:49:48.673 [http-nio-5000-exec-10] "OPTIONS /recruit/position/hits/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/recruit/position/hits/2", parameters={}
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#updateHits(Integer)
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.selectOne - ==>  Preparing: SELECT id,title,requirement,quantity,city,salary_up,salary_down,release_date,state,hits,category_id,hr_id,company_id,create_time,update_time,delete_time FROM position WHERE delete_time IS NULL AND (id = ?)
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.selectOne - ==> Parameters: 2(Integer)
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.selectOne - <==      Total: 1
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.updateHits - ==>  Preparing: update position set hits = hits + 1 where id = ?
+2023-03-31 13:49:48.689 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.updateHits - ==> Parameters: 2(Integer)
+2023-03-31 13:49:48.706 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.updateHits - <==    Updates: 1
+2023-03-31 13:49:48.706 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:49:48.706 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=4100, message=更新职位浏览量成功, request=PUT /recruit/position/hits/2)]
+2023-03-31 13:49:48.706 [http-nio-5000-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2023-03-31 13:50:14.213 [http-nio-5000-exec-2] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/login", parameters={}
+2023-03-31 13:50:14.214 [http-nio-5000-exec-2] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#login(LoginDTO)
+2023-03-31 13:50:14.215 [http-nio-5000-exec-2] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:14.219 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/recruit/user/login", parameters={}
+2023-03-31 13:50:14.219 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#login(LoginDTO)
+2023-03-31 13:50:14.243 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=hr1, password=123456)]
+2023-03-31 13:50:14.326 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (username = ?)
+2023-03-31 13:50:14.326 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: hr1(String)
+2023-03-31 13:50:14.326 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 1
+2023-03-31 13:50:14.341 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2023-03-31 13:50:14.342 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - ==> Parameters: 7(Integer), USERNAME_PASSWORD(String), hr1(String)
+2023-03-31 13:50:14.348 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2023-03-31 13:50:14.645 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:14.645 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6Nywic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2023-03-31 13:50:14.645 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:14.656 [http-nio-5000-exec-5] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/permissions", parameters={}
+2023-03-31 13:50:14.656 [http-nio-5000-exec-5] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getPermissions()
+2023-03-31 13:50:14.656 [http-nio-5000-exec-5] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:14.656 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/user/permissions", parameters={}
+2023-03-31 13:50:14.656 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getPermissions()
+2023-03-31 13:50:14.671 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE id=? AND delete_time IS NULL
+2023-03-31 13:50:14.671 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==> Parameters: 7(Integer)
+2023-03-31 13:50:14.671 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - <==      Total: 1
+2023-03-31 13:50:14.687 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM `group` WHERE delete_time IS NULL AND (`level` = ?)
+2023-03-31 13:50:14.687 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2023-03-31 13:50:14.703 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - <==      Total: 1
+2023-03-31 13:50:14.703 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (user_id = ? AND group_id = ?)
+2023-03-31 13:50:14.703 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 7(Integer), 1(Integer)
+2023-03-31 13:50:14.703 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 0
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN `user_group` as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 7(Integer)
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - ==> Parameters: 3(Integer)
+2023-03-31 13:50:14.718 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - <==      Total: 15
+2023-03-31 13:50:14.734 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:14.734 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=7, nickname=马经理, avatar=https://bjck.xilikeli.cn/72d0786bad734967803d882ce5cbbbf (truncated)...]
+2023-03-31 13:50:14.734 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:14.752 [http-nio-5000-exec-7] "OPTIONS /recruit/user/getGroup/7 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/getGroup/7", parameters={}
+2023-03-31 13:50:14.753 [http-nio-5000-exec-7] "OPTIONS /recruit/user/getGroup/7 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getUserGroup(Integer)
+2023-03-31 13:50:14.753 [http-nio-5000-exec-7] "OPTIONS /recruit/user/getGroup/7 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:14.757 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/user/getGroup/7", parameters={}
+2023-03-31 13:50:14.758 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getUserGroup(Integer)
+2023-03-31 13:50:14.759 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE id=? AND delete_time IS NULL
+2023-03-31 13:50:14.759 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==> Parameters: 7(Integer)
+2023-03-31 13:50:14.760 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - <==      Total: 1
+2023-03-31 13:50:14.764 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (user_id = ?)
+2023-03-31 13:50:14.764 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 7(Integer)
+2023-03-31 13:50:14.764 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2023-03-31 13:50:14.765 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:14.765 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [3]
+2023-03-31 13:50:14.766 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/7 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.241 [http-nio-5000-exec-9] "OPTIONS /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/category/show", parameters={}
+2023-03-31 13:50:19.242 [http-nio-5000-exec-9] "OPTIONS /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 13:50:19.242 [http-nio-5000-exec-10] "OPTIONS /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 13:50:19.242 [http-nio-5000-exec-10] "OPTIONS /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 13:50:19.243 [http-nio-5000-exec-9] "OPTIONS /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.243 [http-nio-5000-exec-10] "OPTIONS /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.244 [http-nio-5000-exec-1] "OPTIONS /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/position/sort", parameters={}
+2023-03-31 13:50:19.244 [http-nio-5000-exec-1] "OPTIONS /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 13:50:19.245 [http-nio-5000-exec-3] "OPTIONS /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/company/find", parameters={}
+2023-03-31 13:50:19.245 [http-nio-5000-exec-1] "OPTIONS /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.245 [http-nio-5000-exec-3] "OPTIONS /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 13:50:19.245 [http-nio-5000-exec-3] "OPTIONS /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.249 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 13:50:19.249 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 13:50:19.250 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 13:50:19.250 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 13:50:19.250 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 13:50:19.250 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 13:50:19.250 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 13:50:19.250 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 13:50:19.251 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 13:50:19.251 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 13:50:19.251 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 13:50:19.251 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 13:50:19.251 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 13:50:19.251 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 13:50:19.252 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 13:50:19.252 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:19.253 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 13:50:19.253 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 13:50:19.253 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 13:50:19.253 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 13:50:19.253 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:19.253 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 13:50:19.253 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 13:50:19.253 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:19.253 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 13:50:19.254 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.255 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.255 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 13:50:19.255 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 13:50:19.255 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 13:50:19.259 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 13:50:19.259 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 13:50:19.260 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 13:50:19.261 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 14:50:21.332 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 14:50:21.332 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 14:50:21.332 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 14:50:21.332 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 14:50:21.338 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 14:50:21.338 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 14:50:21.338 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 14:50:21.338 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 14:50:21.356 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 14:50:21.356 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 14:50:21.357 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 14:50:21.359 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 14:50:21.359 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 14:50:21.359 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 14:50:21.368 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 14:50:21.369 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 14:50:21.369 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 14:50:21.373 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 14:50:21.373 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 14:50:21.373 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 14:50:21.374 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 14:50:21.374 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 14:50:21.374 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 14:50:21.375 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 14:50:21.376 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 14:50:21.381 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 14:50:21.382 [http-nio-5000-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 14:50:21.382 [http-nio-5000-exec-2] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 14:50:21.384 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 14:50:21.384 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 14:50:21.388 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 14:50:21.389 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 14:50:21.389 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 14:50:21.391 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 15:50:23.510 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 15:50:23.510 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 15:50:23.510 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 15:50:23.510 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 15:50:23.515 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 15:50:23.515 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 15:50:23.515 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 15:50:23.515 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 15:50:23.525 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 15:50:23.525 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 15:50:23.525 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 15:50:23.525 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 15:50:23.525 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 15:50:23.525 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 15:50:23.541 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 15:50:23.541 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 15:50:23.541 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 15:50:23.541 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 15:50:23.541 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 15:50:23.541 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 15:50:23.541 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 16:50:24.707 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 16:50:24.709 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 16:50:24.709 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 16:50:24.710 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 16:50:24.711 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 16:50:24.711 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 16:50:24.711 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 16:50:24.711 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 16:50:24.715 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 16:50:24.715 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 16:50:24.715 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 16:50:24.715 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 16:50:24.715 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 16:50:24.715 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 16:50:24.715 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 16:50:24.715 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 16:50:24.715 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 16:50:24.715 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 16:50:24.730 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 16:50:24.733 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 16:50:24.733 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 16:50:24.733 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 16:50:24.733 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 16:50:24.733 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 16:50:24.733 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 16:50:24.735 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 16:50:24.735 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 16:50:24.737 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 16:50:24.737 [http-nio-5000-exec-8] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 16:50:24.737 [http-nio-5000-exec-5] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 16:50:24.739 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 16:50:24.740 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 16:50:24.740 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 16:50:24.742 [http-nio-5000-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 17:50:26.201 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 17:50:26.202 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 17:50:26.202 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 17:50:26.202 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 17:50:26.202 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 17:50:26.202 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 17:50:26.202 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 17:50:26.202 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 17:50:26.215 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 17:50:26.215 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 17:50:26.215 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 17:50:26.215 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 17:50:26.216 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 17:50:26.216 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 17:50:26.217 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 17:50:26.218 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 17:50:26.220 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 17:50:26.220 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 17:50:26.221 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 17:50:26.221 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 17:50:26.222 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 17:50:26.222 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 17:50:26.222 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 17:50:26.222 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 17:50:26.222 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 17:50:26.223 [http-nio-5000-exec-6] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 17:50:26.223 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 17:50:26.223 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 17:50:26.223 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 17:50:26.224 [http-nio-5000-exec-8] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 17:50:26.224 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 17:50:26.225 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 17:50:26.225 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 17:50:26.226 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 18:50:28.130 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 18:50:28.131 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 18:50:28.132 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 18:50:28.132 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 18:50:28.138 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 18:50:28.138 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 18:50:28.138 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 18:50:28.138 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 18:50:28.138 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 18:50:28.138 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 18:50:28.138 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 18:50:28.138 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 18:50:28.138 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 18:50:28.138 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 18:50:28.138 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 18:50:28.138 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 18:50:28.138 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 18:50:28.138 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 18:50:28.138 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 18:50:28.138 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 18:50:28.154 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 18:50:28.154 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 18:50:28.154 [http-nio-5000-exec-9] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 18:50:28.154 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 18:50:28.154 [http-nio-5000-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 18:50:28.170 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 18:50:28.170 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 18:50:28.170 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 18:50:28.170 [http-nio-5000-exec-2] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 23:49:41.876 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2023-03-31 23:49:41.876 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2023-03-31 23:49:41.878 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2023-03-31 23:49:41.878 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2023-03-31 23:49:41.880 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2023-03-31 23:49:41.881 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2023-03-31 23:49:41.881 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2023-03-31 23:49:41.881 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2023-03-31 23:49:41.881 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 23:49:41.881 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2023-03-31 23:49:41.881 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2023-03-31 23:49:41.881 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2023-03-31 23:49:41.882 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2023-03-31 23:49:41.883 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2023-03-31 23:49:41.883 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2023-03-31 23:49:41.883 [http-nio-5000-exec-5] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 23:49:41.883 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2023-03-31 23:49:41.883 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2023-03-31 23:49:41.886 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2023-03-31 23:49:41.887 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2023-03-31 23:49:41.887 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 23:49:41.887 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2023-03-31 23:49:41.887 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2023-03-31 23:49:41.889 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2023-03-31 23:49:41.889 [http-nio-5000-exec-6] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 23:49:41.889 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 23:49:41.890 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2023-03-31 23:49:41.891 [http-nio-5000-exec-9] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2023-03-31 23:49:41.892 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2023-03-31 23:49:41.892 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2023-03-31 23:49:41.895 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2023-03-31 23:49:41.896 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-31 23:49:41.896 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2023-03-31 23:49:41.898 [http-nio-5000-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
