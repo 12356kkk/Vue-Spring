@@ -80,11 +80,3 @@ recruit-web为前端，安装node.js V12以上版本，使用yarn install安装�
 项目参考 https://gitee.com/koengman/resume.git ，修改部分bug及解决兼容性问题后发布。 
 
 感谢开源！
-
-## about me
-一个爱学习、爱分享、爱交流的程序员；
-
-欢迎关注个人微信公众号【Java烂笔头】，微信小程序【Java烂笔头】，一起交流、共同进步；
-
-课程设计、毕业设计等代码开发问题有偿指导（因人力、精力有限，望理解），小助手微信如下；
-![输入图片说明](https://foruda.gitee.com/images/1676021253298027391/bb71427d_9956838.jpeg "小Z同学.jpg")
